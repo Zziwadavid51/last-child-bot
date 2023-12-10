@@ -195,7 +195,8 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
     CAPTION = """<b>📂 : <code>{file_name}</code>
-➢ <a href=https://t.me/+kIHJBYxTUqhjNzg0>𝐌𝐚𝐢𝐧 𝐂𝐡𝐚𝐧𝐧𝐞𝐥📡</a>
+
+💠 <a href=https://t.me/+kIHJBYxTUqhjNzg0>𝐁𝐋𝐀𝐒𝐓𝐖𝐀𝐋𝐋𝐙 𝐓𝐕📡</a>
 </b>""" 
 
     IMDB_TEMPLATE_TXT = """
