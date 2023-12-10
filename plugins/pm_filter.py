@@ -911,7 +911,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                         file_id=file_id,
                         caption=f_caption,
                         protect_content=True if ident == "filep" else False,
-                        reply_markup=InlineKeyboardMarkup(
+                    #    reply_markup=InlineKeyboardMarkup(
                           #  [
                           #   [
                            #   InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=SUPPORT_CHAT),
@@ -920,7 +920,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                            #   InlineKeyboardButton("Mᴏᴠɪᴇ Rᴇᴏ̨ᴜᴇsᴛ Gʀᴏᴜᴘ", url="telegram.me/TeamHMT_Movies")
                           #   ]
                           #  ]
-                        )
+                 #       )
                     )
                 else:
                     await query.answer(f"Hᴇʏ {query.from_user.first_name}, Tʜɪs Is Nᴏᴛ Yᴏᴜʀ Mᴏᴠɪᴇ Rᴇǫᴜᴇsᴛ. Rᴇǫᴜᴇsᴛ Yᴏᴜʀ's !", show_alert=True)
@@ -1004,7 +1004,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             file_id=file_id,
             caption=f_caption,
             protect_content=True if ident == 'checksubp' else False,
-            reply_markup=InlineKeyboardMarkup(
+         #   reply_markup=InlineKeyboardMarkup(
             #    [
                #  [
                 #  InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=SUPPORT_CHAT),
@@ -1013,7 +1013,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
               #    InlineKeyboardButton("Mᴏᴠɪᴇ Rᴇᴏ̨ᴜᴇsᴛ Gʀᴏᴜᴘ", url="telegram.me/TeamHMT_Movies")
                #  ]
               #  ]
-            )
+         #   )
         )
     
     elif query.data == "pages":
