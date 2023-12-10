@@ -149,8 +149,8 @@ async def start(client, message):
                     chat_id=message.from_user.id,
                     file_id=msg.get("file_id"),
                     caption=f_caption,
-                    protect_content=msg.get('protect', False),
-                    reply_markup=InlineKeyboardMarkup(
+                    protect_content=msg.get('protect', False))
+                  #  reply_markup=InlineKeyboardMarkup(
                        # [
                        #  [
                           #InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
@@ -159,8 +159,8 @@ async def start(client, message):
                           #InlineKeyboardButton("Mᴏᴠɪᴇ Rᴇᴏ̨ᴜᴇsᴛ Gʀᴏᴜᴘ", url="https://t.me/+mjs1xYh3aXQ5YTI9")
      #                    ]
      #                   ]
-                    )
-                )
+           #         )
+          #      )
             except FloodWait as e:
                 await asyncio.sleep(e.x)
                 logger.warning(f"Floodwait of {e.x} sec.")
@@ -168,8 +168,8 @@ async def start(client, message):
                     chat_id=message.from_user.id,
                     file_id=msg.get("file_id"),
                     caption=f_caption,
-                    protect_content=msg.get('protect', False),
-                    reply_markup=InlineKeyboardMarkup(
+                    protect_content=msg.get('protect', False))
+               #     reply_markup=InlineKeyboardMarkup(
           #              [
            #              [
                           #InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
@@ -178,8 +178,8 @@ async def start(client, message):
                           #InlineKeyboardButton("Mᴏᴠɪᴇ Rᴇᴏ̨ᴜᴇsᴛ Gʀᴏᴜᴘ", url="https://t.me/+mjs1xYh3aXQ5YTI9")
     #                     ]
     #                    ]
-                    )
-                )
+          #          )
+        #        )
             except Exception as e:
                 logger.warning(e, exc_info=True)
                 continue
@@ -333,7 +333,7 @@ async def start(client, message):
                 file_id=file_id,
                 caption=f_caption,
                 protect_content=True if pre == 'filep' else False,
-                reply_markup=InlineKeyboardMarkup(
+            #    reply_markup=InlineKeyboardMarkup(
         #            [
          #            [
                       #InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
@@ -342,7 +342,7 @@ async def start(client, message):
                       #InlineKeyboardButton("Mᴏᴠɪᴇ Rᴇᴏ̨ᴜᴇsᴛ Gʀᴏᴜᴘ", url="https://t.me/+L1doEfOpzVI2NmM1")
     #                 ]
         #            ]
-                )
+           #     )
             )
             filesarr.append(msg)
         k = await client.send_message(chat_id = message.from_user.id, text=f"<b><u>❗️❗️❗️IMPORTANT❗️️❗️❗️</u></b>\n\nThis Movie Files/Videos will be deleted in <b><u>10 mins</u> 🫥 <i></b>(Due to Copyright Issues)</i>.\n\n<b><i>Please forward this ALL Files/Videos to your Saved Messages and Start Download there</i></b>")
@@ -395,7 +395,7 @@ async def start(client, message):
                 chat_id=message.from_user.id,
                 file_id=file_id,
                 protect_content=True if pre == 'filep' else False,
-                reply_markup=InlineKeyboardMarkup(
+           #     reply_markup=InlineKeyboardMarkup(
           #          [
            #          [
                       #InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
@@ -404,7 +404,7 @@ async def start(client, message):
                       #InlineKeyboardButton("Mᴏᴠɪᴇ Rᴇᴏ̨ᴜᴇsᴛ Gʀᴏᴜᴘ", url="https://t.me/+L1doEfOpzVI2NmM1")
          #            ]
       #              ]
-                )
+        #        )
             )
             filetype = msg.media
             file = getattr(msg, filetype.value)
@@ -455,7 +455,7 @@ async def start(client, message):
         file_id=file_id,
         caption=f_caption,
         protect_content=True if pre == 'filep' else False,
-        reply_markup=InlineKeyboardMarkup(
+       # reply_markup=InlineKeyboardMarkup(
         #    [
         #     [
               #InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
@@ -464,7 +464,7 @@ async def start(client, message):
               #InlineKeyboardButton("Mᴏᴠɪᴇ Rᴇᴏ̨ᴜᴇsᴛ Gʀᴏᴜᴘ", url="https://t.me/+L1doEfOpzVI2NmM1")
         #     ]
         #    ]
-        )
+     #   )
     )
     btn = [[
         InlineKeyboardButton("Get File Again", callback_data=f'delfile#{file_id}')
