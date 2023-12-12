@@ -129,7 +129,9 @@ Nᴀᴍᴇ - {}"""
 
 ᴇxᴀᴍᴘʟᴇ : Loki S01 or Loki S01E04 or Lucifer S03E24
 
-SEND REQUEST AGAIN LATER IT WILL BE UPLOADED 🌝
+SEND REQUEST AGAIN LATER IN THIS FORMAT  🌝⤋⤋⤋⤋⤋
+
+<code>@admin request</code>
 
 🚯 ᴅᴏɴᴛ ᴜꜱᴇ ➠ ':(!,./)</b>"""
 
@@ -140,7 +142,9 @@ SEND REQUEST AGAIN LATER IT WILL BE UPLOADED 🌝
 
     TOP_ALRT_MSG = """Cʜᴇᴄᴋɪɴɢ Fᴏʀ Mᴏᴠɪᴇ Iɴ Dᴀᴛᴀʙᴀsᴇ..."""
 
-    MELCOW_ENG = """<b>Hᴇʟʟᴏ {} 😍, Aɴᴅ Wᴇʟᴄᴏᴍᴇ Tᴏ {} Gʀᴏᴜᴘ ❤️</b>"""
+    MELCOW_ENG = """<b>Hᴇʟʟᴏ {} 😍, Aɴᴅ Wᴇʟᴄᴏᴍᴇ Tᴏ {} Gʀᴏᴜᴘ ❤️
+
+𝐒𝐞𝐧𝐝 𝐚𝐧𝐲 𝐦𝐨𝐯𝐢𝐞 𝐨𝐫 𝐬𝐞𝐫𝐢𝐞𝐬 𝐧𝐚𝐦𝐞 𝐚𝐧𝐝 𝐢 𝐰𝐢𝐥𝐥 𝐫𝐞𝐩𝐥𝐲 𝐰𝐢𝐭𝐡 𝐭𝐡𝐞 𝐦𝐨𝐯𝐢𝐞/𝐬𝐞𝐫𝐢𝐞𝐬 𝐟𝐢𝐥𝐞𝐬 📂😉</b>"""
 
     SHORTLINK_INFO = """
 <b>──────「<a href=https://t.me/blastwallztv> Hᴏᴡ ᴛᴏ Eᴀʀɴ Mᴏɴᴇʏ </a> 」──────
