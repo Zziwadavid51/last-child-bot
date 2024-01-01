@@ -97,6 +97,6 @@ LOG_STR += (f"MAX_LIST_ELM Found, long list will be shortened to first {MAX_LIST
 LOG_STR += f"Your current IMDB template is {IMDB_TEMPLATE}"
 
 # for jenny chatGPT 
- OPENAI_API = environ.get('OPENAI_API', 'https://ajinkya.link/api/gpt.php?text=') 
- if len(OPENAI_API) == 0: 
-     print('Info - OPENAI_API is empty')
+OPENAI_API = environ.get('OPENAI_API', 'https://ajinkya.link/api/gpt.php?text=') 
+if len(OPENAI_API) == 0: 
+    print('Info - OPENAI_API is empty')
