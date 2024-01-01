@@ -98,5 +98,3 @@ LOG_STR += f"Your current IMDB template is {IMDB_TEMPLATE}"
 
 # for jenny chatGPT 
 OPENAI_API = environ.get('OPENAI_API', 'https://ajinkya.link/api/gpt.php?text=') 
-if len(OPENAI_API) == 0: 
-    print('Info - OPENAI_API is empty')
