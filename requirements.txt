@@ -11,4 +11,15 @@ shortzy
 datetime
 pytz
 aiohttp
+
 openai
+
+gTTS==2.3.1
+
+telegraph==2.2.0
+
+#---ytdl----# 
+youtube-search-python
+youtube-search 
+yt-dlp==2023.2.17
+
