@@ -18,7 +18,7 @@ async def ask_question(client, message):
         text = message.text.split(" ", 1)[1]
     except:
         return await message.reply_text("Command Incomplete!\nUsage: /openai your_question")
-    msg = await message.reply("Searching 🔎 ")
+    msg = await message.reply("Searching 🔎")
     try:
         response = ai_client.chat.completions.create(
             messages=[
