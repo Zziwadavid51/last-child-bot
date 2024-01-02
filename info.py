@@ -97,4 +97,4 @@ LOG_STR += (f"MAX_LIST_ELM Found, long list will be shortened to first {MAX_LIST
 LOG_STR += f"Your current IMDB template is {IMDB_TEMPLATE}"
 
 # for jenny chatGPT 
-OPENAI_API = environ.get('OPENAI_API', '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') 
+OPENAI_API = environ.get('OPENAI_API', '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') 
