@@ -25,13 +25,19 @@ async def carbon_func(b, message):
     if not message.reply_to_message.text:
         return await message.reply_text("ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴛᴇxᴛ ᴍᴇssᴀɢᴇ ᴛᴏ ᴍᴀᴋᴇ ᴄᴀʀʙᴏɴ.")
     user_id = message.from_user.id
-    m = await message.reply_text("ᴘʀᴏᴄᴇssɪɴɢ...")
+    m = await message.reply_text("Processing...")
+await m.edit("🌀")
+await m.edit("🌀🌀")
+await m.edit("🌀🌀🌀")
     carbon = await make_carbon(message.reply_to_message.text)
-    await m.edit("ᴜᴘʟᴏᴀᴅɪɴɢ..")
+    await m.edit("ᴜᴘʟᴏᴀᴅɪɴɢ...")
+    await m.edit("📥")
+    await m.edit("📥📥")
+    await m.edit("📥📥📥")
     await message.reply_photo(
         photo=carbon,
-        caption="**ᴍᴀᴅᴇ ʙʏ: @mkn_bots_updates**",
-        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("ꜱᴜᴩᴩᴏʀᴛ ᴜꜱ", url="https://t.me/mkn_bots_updates")]]),                   
+        caption="**ᴍᴀᴅᴇ ʙʏ: @blastwallztv**",
+        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("ꜱᴜᴩᴩᴏʀᴛ ᴜꜱ", url="https://t.me/blastwallztv")]]),                   
     )
     await m.delete()
     carbon.close()
