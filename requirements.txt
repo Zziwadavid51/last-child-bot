@@ -35,5 +35,7 @@ Pillow==10.0.1
 psutil==5.9.4
 NumPy
 wheel
+pyromod 
+speedtest-cli
 
 
