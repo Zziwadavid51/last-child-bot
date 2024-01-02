@@ -26,9 +26,9 @@ async def carbon_func(b, message):
         return await message.reply_text("ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴛᴇxᴛ ᴍᴇssᴀɢᴇ ᴛᴏ ᴍᴀᴋᴇ ᴄᴀʀʙᴏɴ.")
     user_id = message.from_user.id
     m = await message.reply_text("Processing...")
-await m.edit("🌀")
-await m.edit("🌀🌀")
-await m.edit("🌀🌀🌀")
+    await m.edit("🌀")
+    await m.edit("🌀🌀")
+    await m.edit("🌀🌀🌀")
     carbon = await make_carbon(message.reply_to_message.text)
     await m.edit("ᴜᴘʟᴏᴀᴅɪɴɢ...")
     await m.edit("📥")
