@@ -34,6 +34,7 @@ async def p_paste(message, extension=None):
 @Client.on_message(filters.command(["tgpaste", "pasty", "paste"]))
 async def pasty(client, message):
     pablo = await message.reply_text("`Pʟᴇᴀꜱᴇ Wᴀɪᴛ...`")
+    await pablo.edit("⏳")
     tex_t = message.text
     if ' ' in message.text:
         message_s = message.text.split(" ", 1)[1]
